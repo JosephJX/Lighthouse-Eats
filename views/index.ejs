@@ -1,20 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Home Page</title>
 
-<head>
-  <title>Home Page</title>
+    <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
 
-  <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
-  <link rel="stylesheet" href="/vendor/border-box.css" type="text/css" />
-  <link rel="stylesheet" href="/styles/main.css" type="text/css" />
-  <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/vendor/border-box.css" type="text/css" />
 
-  <script type="text/javascript" src="/vendor/jquery-3.0.0.js"></script>
-  <script type="text/javascript" src="/scripts/app.js"></script>
-</head>
+    <link rel="stylesheet" href="/styles/main.css" type="text/css" />
 
-<body>
-  <h1>Have fun! 🥔</h1>
-</body>
+    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
 
+    <script type="text/javascript" src="/vendor/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+  </head>
+
+  <body>
+    <!--  Header  -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>LightHouse<span>Eats</span></h1>
+        </div>
+        <div class="currentDetails">
+          <div class="header-option">
+            <span>Toronto</span>
+          </div>
+          <div class="header-option">
+            <span>Deliver Now</span>
+          </div>
+        </div>
+        <div class="searchBar">
+          <div class="header-option">Search</div>
+          <div class="header-option">Sign in</div>
+        </div>
+      </div>
+    </header>
+    <!-- Options  -->
+    <div class="options">
+      <div class="container">
+        <button class="options-btn selected">Delivery</button>
+        <button class="options-btn">Pick-up</button>
+      </div>
+    </div>
+    <!--  Listings  -->
+    <div class="listings">
+      <div class="container">
+        <div class="header">
+          <div class="header-title">
+            <h2>When you're hungry now</h2>
+            <span>The fastest food to your door </span>
+          </div>
+          <div class="header-viewOptions">
+            <div class="viewAll">
+              <span>View all</span>
+            </div>
+            <div class="viewMore">
+              <span class="arrow circle left"
+                ><i data-feather="arrow-left"></i
+              ></span>
+              <span class="arrow circle right darker"
+                ><i data-feather="arrow-right"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div class="listing-grid">
+          <div class="listings-grid-element">
+            <div class="image">
+              <img
+                src="https://media.discordapp.net/attachments/942219555240026197/943605184154701884/1383814482359.png"
+                alt="listing pic"
+              />
+            </div>
+            <div class="text">
+              <div class="text-title">
+                <h3>Greek Salad</h3>
+                <div class="info">
+                  <span>$4.99 delivery fee | 20-30 mins | $</span>
+                </div>
+              </div>
+              <div class="rating">
+                <span class="circle">4.2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
