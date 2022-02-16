@@ -7,6 +7,7 @@
 }
 
 body {
+<<<<<<< HEAD
   margin: 0;
   font-family: sans-serif;
 }
@@ -149,4 +150,44 @@ header {
 
     }
   }
+=======
+  display: flex;
+  font-family: sans-serif;
+  background: rgb(120, 178, 204);
 }
+
+.container {
+  width: calc(90%);
+  margin: auto;
+>>>>>>> 905c3c01262ff1b3b6aeeadabfcab693ead0dffe
+}
+
+header {
+  .logo {
+    h1 {
+      font-weight: 300;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .login-options {
+    margin-left: auto;
+  }
+  .options {
+    padding-left: 5rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    svg {
+      margin-right: 1rem;
+      display: inline-flex;
+    }
+  }
+  .header-options,
+  .login-options {
+    display: flex;
+  }
+
