@@ -1,7 +1,7 @@
-LHL Node Skeleton
+LighthouseEats
 =========
 
-## Project Setup
+## The Lighthouse
 
 The following steps are only for _one_ of the group members to perform.
 
