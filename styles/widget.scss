@@ -379,8 +379,20 @@ footer {
   border-radius : 50px;
 }
 
-.map {
-  display: flex;
-  float:  right;
 
+.form-container {
+  width: 90%;
+}
+
+#contact {
+  padding-bottom: 4%;
+}
+
+.order {
+  text-align: center;
+  margin-right: auto;
+  padding-left: 2%;
+  color: rgb(202, 93, 4);
+  font-family: sans-serif;
+  font-style: italic;
 }
