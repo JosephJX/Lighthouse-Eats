@@ -1,5 +1,3 @@
-# LighthouseEats
-
 ## The LighthouseEats
 
 - This is our desktop app to provide an online food ordering experience.
